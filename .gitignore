@@ -1,0 +1,39 @@
+# ---- SEC bulk data sets (large, reproducible — download separately, see docs/DATA_SETUP.md) ----
+*form13f.zip
+*.zip
+
+# ---- generated / cached data ----
+securities_index*.json
+company_tickers.json
+ticker_cusip_cache.json
+scraped_*.csv
+*_FAILURES.csv
+
+# ---- generated outputs ----
+*_13F_Institutional_Ownership.xlsx
+*.xlsx
+~$*.xlsx
+preview_*.html
+*Information Table*.html
+
+# ---- python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ---- os / editor ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+
+# ---- local config / working artifacts ----
+.claude/
+target_ciks.csv
+
+# Keep example/screenshot assets if you add them under docs/
+!docs/**
